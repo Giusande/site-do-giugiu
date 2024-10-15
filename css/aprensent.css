@@ -20,6 +20,7 @@ main .texto-main{
     background-color: #ffffff90;
     padding: 10px;
     text-align: center;
+    box-shadow: 0 0 1rem #ffffff90;
 }
 
 main p{
@@ -29,4 +30,17 @@ main p{
 main h1{
     margin-bottom: 15px;
     font-weight: 300;
+}
+
+@media (max-width: 560px){
+    main{
+        height: auto;
+        top: 180px;
+        padding: 30px;
+    }
+
+    main .texto-main{
+        width: 100%;
+        font-size: 12px;
+    }
 }

@@ -168,3 +168,42 @@ nav .bx-chevron-down{
     transition: 0.3s;
     color: #fff;
 }
+
+@media (max-width: 550px) {
+    header{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    header img{
+        max-height: 40px;
+        margin-bottom: -15px;
+        margin-top: -10px;
+    }
+
+    header .icons{
+        position: absolute;
+        top: 8.654px;
+        right: 30px;
+    }
+
+    header .search-content{
+        width: 90%;
+        box-shadow: 0 0 10px #ddd;
+    }
+    
+    header .search-content button{
+        min-width: 35px;
+    }
+
+    header nav{
+        top: 110px;
+    }
+
+    header nav ul .ano-li:hover .unidades{
+        flex-direction: column;
+        width: 150px;
+        height: 250px;
+        overflow-y: scroll;
+    }
+}
