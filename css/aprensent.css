@@ -1,0 +1,32 @@
+main{
+    width: 80%;
+    height: 70vh;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 3rem #dedede;
+    position: absolute;
+    left: 10%;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-image: url(../img/fundo-apresent.png);
+}
+
+main .texto-main{
+    width: 70%;
+    background-color: #ffffff90;
+    padding: 10px;
+    text-align: center;
+}
+
+main p{
+    font-size: 14px;
+}
+
+main h1{
+    margin-bottom: 15px;
+    font-weight: 300;
+}

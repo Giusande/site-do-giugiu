@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../../../img/logo_juca.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/header.css">
+    <link rel="stylesheet" href="../../../css/atvd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <title>Juca</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="https://i.postimg.cc/bYbQ7pDr/Juca-logo-1.png" alt="">
+        <form class="search-content" action="./pesquisar/" method="get">
+            <input autocomplete="off" id="searchInput" name="search" required maxlength="30" placeholder="Pesquise aqui a atividade" type="text" class="search-input">
+            <button onclick="btnSearch()"><i class='bx bx-search'></i></button>
+        </form>
+        <div class="icons">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <nav class="navbar">
+            <a class="inicio" href="../../../home.html">Página Inicial</a>
+            <ul>
+                <li class="ano-li">
+                    <a href="#" class="ano">3°ano<i class='bx bx-chevron-down'></i></a>
+                    <ul class="unidades">
+                        <li>
+                            <a href="#" class="title-unid">1° unidade</i></a>
+                            <ul class="materia">
+                                <li><a href="#">Matemática</a></li>
+                                <li><a href="#">Linguagens</a></li>
+                                <li><a href="#">Natureza</a></li>
+                                <li><a href="#">Humanas</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#" class="title-unid">2° unidade</i></a>
+                            <ul class="materia">
+                                <li><a href="../../../3°ano/2°unidade/matematica/">Matemática</a></li>
+                                <li><a href="../../../3°ano/2°unidade/linguagens/">Linguagens</a></li>
+                                <li><a href="../../../3°ano/2°unidade/natureza/">Natureza</a></li>
+                                <li><a href="../../../3°ano/2°unidade/humanas/">Humanas</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#" class="title-unid">3° unidade</i></a>
+                            <ul class="materia">
+                                <li><a href="#">Matemática</a></li>
+                                <li><a href="#">Linguagens</a></li>
+                                <li><a href="#">Natureza</a></li>
+                                <li><a href="#">Humanas</a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#" class="title-unid">4° unidade</i></a>
+                            <ul class="materia">
+                                <li><a href="#">Matemática</a></li>
+                                <li><a href="#">Linguagens</a></li>
+                                <li><a href="#">Natureza</a></li>
+                                <li><a href="#">Humanas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="atividades-content tdn"></div>
+    <script src="../../../js/navbar.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.div-filter{
+    margin-top: 120px;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    display: flex;
+    justify-content: center;
+    min-width: 600px;
+    background: #fff;
+    box-shadow: 0 0 1rem #f2f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.filter-container{
+    padding: 0 20px;    
+}
+
+select, input{
+    background: #fff;
+    box-shadow: 0 0 1rem #f2f0f0;
+    border-radius: 10px;
+    padding: 3.5px;
+    outline: none;
+    border: 0;
+}

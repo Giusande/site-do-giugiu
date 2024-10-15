@@ -1,0 +1,94 @@
+body{
+    background-image: url(../img/fundo-apresent.png);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 1em #6d6a6a90;
+    width: 80%;
+    max-width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 160px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.two-and-two{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    max-width: 100%;
+    min-width: 270px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color: #080800;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+.copy-button{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.container a{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #080800;
+    border: 1px solid #080800;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #403f3d;
+}
+
+#info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

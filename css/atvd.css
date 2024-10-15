@@ -1,0 +1,59 @@
+.atividades-content{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 120px;
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px, auto));
+    gap: 2rem;
+  }
+  
+  .atvd{
+    min-height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 1.5em #ddd;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .atvd iframe{
+    width: 100%;
+    height: 220px;
+    border-radius: 7px;
+    margin-bottom: -10px;
+    border: 0;
+  }
+  
+  .atvd a{
+    font-size: 7px;
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .atvd .img-link{
+    margin-bottom: 10px;
+  }
+  
+  .atvd h2{
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  .atvd p{
+    text-align: justify;
+    font-size: 14px;
+  }
+  
+  .atvd span{
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .atvd .data{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    margin-bottom: 0;
+  }

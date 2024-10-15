@@ -1,0 +1,170 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px #ddd;
+}
+
+header img{
+    height: 60%;
+    cursor: pointer;
+}
+
+header .search-content{
+    width: 50%;
+    display: flex;
+    box-shadow: 0 0 1em #ddd;
+    border-radius: 7px;
+}
+
+header .login{
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    background: url(../img/fundo-apresent.png);
+    color: #080808;
+    box-shadow: 0 0 0.1rem #00000060;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+header .search-content .search-input{
+    border: none;
+    padding: 0 15px;
+    width: 95%;
+    height: 30px;
+    border-radius: 7px 0 0 7px;
+    color: #080808;
+    background-color: #fff;
+    outline: none;
+}
+
+header .search-content button{
+    height: 30px;
+    width: 5%;
+    border-radius: 0 7px 7px 0;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fundo-apresent.png);
+    color: #000;
+    cursor: pointer;
+}
+
+header .icons .bx{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header .icons{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    padding: 5px 20px;
+    display: flex;
+}
+
+header .inicio{
+    color: #000;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 1rem #ddd;
+    position: relative;
+    max-height: 30px;
+}
+
+header .inicio:hover{
+    text-decoration: underline;
+}
+
+header nav ul p, header nav ul a{
+    color: #000;
+}
+
+header nav ul li .ano{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 1rem #ddd;
+    max-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header nav ul li .title-unid{
+    font-weight: 600;
+}
+
+header nav ul li hr{
+    margin: 20px 20px 0px 20px;
+}
+
+header nav ul li{
+    position: relative;
+}
+
+header nav ul li .unidades{
+    margin-top: 5px;
+    display: none;
+    background-color: #fff;
+    padding: 5px 10px 20px 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem #ddd;
+}
+
+header nav ul li .ano .bx{
+    color: #000;
+    font-size: 20px;
+}
+
+header nav ul .ano-li:hover .unidades{
+    display: flex;
+}
+
+header nav ul li{
+    font-size: 14px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+header nav ul li ul li{
+    margin-top: 20px;
+}
+
+header nav ul li .unidades li .materia{
+    flex-direction: column;
+}
+
+header nav ul li .unidades li a:hover{
+    text-decoration: underline;
+}
+
+header nav li:hover a .bx-chevron-down{
+    transform: rotate(180deg);
+}
+
+nav .bx-chevron-down{
+    transition: 0.3s;
+    color: #fff;
+}
